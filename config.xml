@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+	<domain>http://localhost</domain>
+	<connection>
+		<app>compraspublicas</app>
+		<host>127.0.0.1</host>
+		<user>root</user>
+		<pass>mypassword</pass>
+		<database>bumbameuboi</database>
+		<!--Sinta-se a vontade para utilizar qualquer codificacao-->
+		<charset>utf8</charset>
+		<!--Sinta-se a vontade para utilizar qualquer motor-->
+		<engine>MyISAM</engine>
+	</connection>
+</data>

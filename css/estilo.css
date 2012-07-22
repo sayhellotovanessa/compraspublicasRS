@@ -1,0 +1,12 @@
+li { list-style:none;}
+body {
+	padding:0;
+	margin:0 auto;
+	text-align:center;
+}
+a, a:hover, a:visited {
+	text-decoration:none;
+}
+img {
+	border:none;
+}

@@ -1,0 +1,18 @@
+RewriteEngine On
+RewriteCond %{SCRIPT_FILENAME} !-f
+RewriteCond %{SCRIPT_FILENAME} !-d
+
+RewriteRule ^(.+)\/?$ index.php?endereco=$1
+
+<Files ~ "\.xml$">
+Order allow,deny
+Deny from all
+</Files>
+<Files ~ "\.py$">
+Order allow,deny
+Deny from all
+</Files>
+<Files ~ "\.inc$">
+Order allow,deny
+Deny from all
+</Files>
