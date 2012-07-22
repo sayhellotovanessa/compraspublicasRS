@@ -25,8 +25,11 @@
 	else if($arrayUrl[0] == 'css') {
 		include("css/$arrayUrl[1]");
 	}
-	else if($arrayUrl[0] == 'api' && file_exists("templates/api/$arrayUrl[1]")) {
-		include("templates/api/$arrayUrl[1]");
+	else if($arrayUrl[0] == 'api' && file_exists("templates/api/$arrayUrl[1].php")) {
+		include("templates/api/$arrayUrl[1].php");
+	}
+	else if($arrayUrl[0] == 'dados') {
+		include("dados/$arrayUrl[1].php");
 	}
 	else if(file_exists("templates/$arrayUrl[0].php")) {
 		include("includes/app.top.php");
