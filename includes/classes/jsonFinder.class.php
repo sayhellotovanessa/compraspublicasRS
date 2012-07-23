@@ -21,8 +21,8 @@
 		function search($criteria, $term) {
 			foreach($this->file as $index) {
 				foreach($index as $field) {
-					if($field == $criteria) {						
-						if(strpos(strtolower($index->$criteria), strtolower($term))) 
+					if($field == $criteria) {
+						if(strstr(strtolower($index->$criteria), strtolower($term))) 
 							array_push($this->result, $index);
 					}
 				}

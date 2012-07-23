@@ -22,29 +22,55 @@
 		}
 		
 		$allJsons = jsonJoin($jsons);
-	
+		$dadosRS = new jsonFinder($allJsons);
+		
 		switch($arrayUrl[2]) {
 			case 'palavrachave':
 				if($arrayUrl[3]) {
-					$dadosRS = new jsonFinder($allJsons);
-					
 					$pesquisa = $dadosRS->search('descricaoObjeto', $arrayUrl[3]);
+					
 					if(count($pesquisa) > 0) {
-						echo json_encode($pesquisa);
+						echo json_encode(array('resposta'=>$pesquisa));
 					}
 					else {
-						echo json_encode(array("resposta"=>"Dados não encontrados"));
+						echo json_encode(array('resposta'=>'Dados não encontrados'));
 					}
 				}
 				else {
-					echo json_encode(array("erro"=>"Favor passar termos para pesquisa."));
+					echo json_encode(array('erro'=>'Favor passar termos para pesquisa.'));
 				}
 			break;
 
 			case 'cnpj':
+				if($arrayUrl[3]) {
+					$pesquisa = $dadosRS->search('cnpjVencedor', (int) $arrayUrl[3]);
+					
+					if(count($pesquisa) > 0) {
+						echo json_encode(array('resposta'=>$pesquisa));
+					}
+					else {
+						echo json_encode(array('resposta'=>'Dados não encontrados'));
+					}
+				}
+				else {
+					echo json_encode(array('erro'=>'Favor passar cnpj para pesquisa.'));
+				}
 			break;
 			
 			case 'empresaVencedora':
+				if($arrayUrl[3]) {		
+					$pesquisa = $dadosRS->search('razaoSocialVencedor', $arrayUrl[3]);
+					
+					if(count($pesquisa) > 0) {
+						echo json_encode(array('resposta'=>$pesquisa));
+					}
+					else {
+						echo json_encode(array('resposta'=>'Dados não encontrados'));
+					}
+				}
+				else {
+					echo json_encode(array('erro'=>'Favor passar cnpj para pesquisa.'));
+				}
 			break;
 			
 			case 'licitacao':
