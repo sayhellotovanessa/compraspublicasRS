@@ -102,7 +102,7 @@
     	<section id="about"> <!-- HTML5 section tag for the about 'section' -->
     	
     		<h2 class="about">Sobre o projeto</h2>
-    		<p>Consulte, compartilhe e comente os dados que você procurou.  </p>
+    		<p>Consulte, compartilhe e comente os dados que você procurou. O <strong> Consultas Públicas </strong> serve para que você possa compartilhar dados com seus amigos e contatos através das redes sociais mais populares. </p>
     		<p>Consultas Públicas é um projeto de licença livre, desenvolvido por Vanessa Guedes e Murilo Prestes em julho de 2012, como projeto do primeiro concurso Decoders, da W3C, realizado durante o FISL 13. <br> Todo o projeto fio escrito em open source, e você pode ver e baixar o código na página do projeto no github.</p>
     	
     	</section>
