@@ -4,7 +4,7 @@
 <!-- This is a demonstration of HTML5 goodness with healthy does of CSS3 mixed in -->
 <head>
     
-    <title>Compras Públicas RS</title>
+    <title>Compras P&uacute;blicas RS</title>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
     			
     <!--[if IE]>
