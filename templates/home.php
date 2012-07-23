@@ -90,7 +90,7 @@
 </table> 
 <br>
 <share>
-<a style="margin-right:50px;" href="https://twitter.com/share" class="twitter-share-button" data-text="#wehateit I really hate it:" data-count="horizontal">Tweet</a><script type="text/javascript" src="//platform.twitter.com/widgets.js"></script>
+<a style="margin-right:50px;" href="https://twitter.com/share" class="twitter-share-button" data-text="#compraspublicasRS Acabo de fazer uma consulta a dados de compras públicas:" data-count="horizontal">Tweet</a><script type="text/javascript" src="//platform.twitter.com/widgets.js"></script>
 <div class="fb-send" data-href="http://example.com" data-font="lucida grande" data-colorscheme="dark"></div>
 	<br>
 </share>
