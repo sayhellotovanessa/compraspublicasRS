@@ -41,5 +41,4 @@
 		include("templates/home.php");
 		include("includes/app.bot.php");
 	}
-	
 ?>
