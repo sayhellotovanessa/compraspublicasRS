@@ -27,7 +27,7 @@
 
 	<section id="data-table"> 
 		<h2 class="work">Minha Consulta</h2>
-		<ul class="work">
+	
 			<table cellpadding="" cellspacing="" summary="" border="" bordercolor="" align="default" width="px" height="px">
 				<tr>
 					<th>Descrição</th>
@@ -85,7 +85,7 @@
 					<td><a href="#">Completo</a></td>
 				</tr>
 			</table> 
-			<br>
+		
 			<share>
 				<a style="margin-right:50px;" href="https://twitter.com/share" class="twitter-share-button" data-text="#wehateit I really hate it:" data-count="horizontal">Tweet</a>
 				<script type="text/javascript" src="//platform.twitter.com/widgets.js"></script>
