@@ -63,7 +63,7 @@
 <td>R$ 6470</td>
 <td>2</td>
 <td>04/01/2011</td>
-<td><a href="oi.html#" rel="bump" rel="400-300">Completo</a></td>
+<td><a href="#"  rel="400-300">Completo</a></td>
 </tr>
 <tr>
 <td>Materiais e suprimentos para informática.</td>
