@@ -25,7 +25,7 @@
 		$dadosRS = new jsonFinder($allJsons);
 		
 		switch($arrayUrl[2]) {
-			case 'palavrachave':
+			case 'palavraChave':
 				if($arrayUrl[3]) {
 					$pesquisa = $dadosRS->search('descricaoObjeto', $arrayUrl[3]);
 					

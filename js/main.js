@@ -62,7 +62,7 @@ $(document).ready(function(){
 	$('#tipo-busca').change(function(){
 		if($(this).val() == 0) {
 			$('.exemplo-pesquisa').html('<strong>Exemplo:</strong>Suprimentos de informática');
-			metodo = 'palavrachave';
+			metodo = 'palavraChave';
 			$('#texto-busca').unmask('99.999.999/9999-99');
 			$('#texto-busca').unmask('99/99/9999');
 		}
