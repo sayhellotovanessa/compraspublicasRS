@@ -22,6 +22,7 @@ $(document).ready(function(){
 	}
 	
 	function pesquisar() {
+		$('#erro-box').fadeOut('fast');
 		$('#load-box').fadeIn('slow');
 		
 		busca = $('#texto-busca').val();
@@ -35,9 +36,24 @@ $(document).ready(function(){
 		}
 		
 		$.get('api/consulta/'+metodo+'/'+busca, {}, function(resposta){
-			console.log(resposta);
 			if(resposta) {
-				$('#load-box').fadeOut('slow');
+				$('#load-box').fadeOut('fast');
+				if(resposta.erro){
+					alert('Erro no aplicativo, tente novamente.');
+					location.href="";
+					
+					$('#erro-box').html("<span class=\"doh\">D'Oh!</span> <br/>"+resposta.erro);
+					$('#erro-box').fadeIn('slow');
+				}
+				else {
+					if(resposta.resposta == 'Dados não encontrados') {
+						$('#erro-box').html("<span class=\"doh\">D'Oh!</span> <br/>Dados não encontrados...");
+						$('#erro-box').fadeIn('slow');
+					}
+					else {
+						console.log(resposta);
+					}
+				}
 			}
 		}, 'json');
 	}
@@ -77,5 +93,9 @@ $(document).ready(function(){
 		else {
 			$('#texto-busca').focus();
 		}
+	});
+	
+	$('#texto-busca').click(function() {
+		$('#erro-box').fadeOut('fast');
 	});
 });

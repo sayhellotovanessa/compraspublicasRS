@@ -261,6 +261,13 @@ form {
 	margin-top:50px;
 	display:none;
 }
+#erro-box {
+	width:100%;
+	margin:0 auto;
+	text-align:center;
+	margin-top:50px;
+	display:none;
+}
 
 input[type="text"] { 
 	width: 400px; 
@@ -271,6 +278,11 @@ input[type="text"] {
 	font-size:18px;
 }
 
+.doh {
+	font-family:Arial;
+	font-size:50px;
+	font-weight:bold;
+}
 select { 
 	background-color: rgba(255, 255, 255, 0.4); 
 	border: 5px solid rgba(122, 192, 0, 0.15); 
