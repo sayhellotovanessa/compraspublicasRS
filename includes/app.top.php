@@ -4,23 +4,16 @@
 <!-- This is a demonstration of HTML5 goodness with healthy does of CSS3 mixed in -->
 <head>
     
-    <title>Compras P&uacute;blicas RS</title>
+    <title>Compras Públicas RS</title>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
-    			
-    <!--[if IE]>
-    	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    
-    <!--[if IE 7]>
-    	<link rel="stylesheet" href="ie7.css" type="text/css" media="screen" />
-    <![endif]-->
+
     
     <link rel="stylesheet" href="style.css" type="text/css" media="screen" />
     
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.0/jquery.min.js" type="text/javascript"></script>
+    <script src="js/jquery-1.7.2.min.js"></script>
     <script src="js/jquery.anchor.js" type="text/javascript"></script>
     <script src="js/jquery.fancybox-1.2.6.pack.js" type="text/javascript"></script>
- 
+ 		<script type="text/javascript" charset="utf-8" src="<?=DIR_SITE?>js/main.js"></script>
 </head>
 
 <body>

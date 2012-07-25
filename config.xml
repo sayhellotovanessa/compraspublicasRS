@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <data>
-	<domain>http://localhost</domain>
+	<domain>http://maclovin.local/compraspublicasRS/</domain>
 	<connection>
 		<app>compraspublicas</app>
 		<host>127.0.0.1</host>

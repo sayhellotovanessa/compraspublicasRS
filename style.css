@@ -253,9 +253,22 @@ form {
 	display:inline-block;
 	margin-left:140px;
 }
+
+#load-box {
+	width:100%;
+	margin:0 auto;
+	text-align:center;
+	margin-top:50px;
+	display:none;
+}
+
 input[type="text"] { 
 	width: 400px; 
 
+}
+
+.exemplo-pesquisa {
+	font-size:18px;
 }
 
 select { 
@@ -379,6 +392,10 @@ input[type="submit"]:hover {
 	margin-left:10px;
 }
 
+.bigRed {
+	font-size: 30px;
+	color: #D82000;
+}
 footer { 
 	float: left; 
 	margin-top: 50px; 

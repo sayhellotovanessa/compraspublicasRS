@@ -26,6 +26,7 @@
 		include("css/$arrayUrl[1]");
 	}
 	else if($arrayUrl[0] == 'api' && file_exists("templates/api/$arrayUrl[1].php")) {
+		header('Content-type: application/json');
 		include("templates/api/$arrayUrl[1].php");
 	}
 	else if($arrayUrl[0] == 'dados') {

@@ -69,14 +69,27 @@
 					}
 				}
 				else {
-					echo json_encode(array('erro'=>'Favor passar cnpj para pesquisa.'));
+					echo json_encode(array('erro'=>'Favor passar dados para pesquisa.'));
 				}
 			break;
 			
-			case 'licitacao':
-			break;
-			
 			case 'data':
+				//Formato da data 20110517
+				
+					if($arrayUrl[3]) {		
+						$pesquisa = $dadosRS->search('dataPublicacaoLegal', $arrayUrl[3]);
+
+						if(count($pesquisa) > 0) {
+							echo json_encode(array('resposta'=>$pesquisa));
+						}
+						else {
+							echo json_encode(array('resposta'=>'Dados não encontrados'));
+						}
+					}
+					else {
+						echo json_encode(array('erro'=>'Favor passar data para pesquisa.'));
+					}
+				
 			break;
 		}
 	}

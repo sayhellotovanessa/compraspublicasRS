@@ -1,5 +1,4 @@
-	<?
-
+<?
 			// ID
 			function getID($id) {
 				if (function_exists('filter_var'))
@@ -427,4 +426,4 @@
 				   die('Nenhuma url valida encontrada');
 				}
 			}
-			?>
+?>

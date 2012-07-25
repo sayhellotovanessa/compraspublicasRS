@@ -6,20 +6,26 @@
 		<br/>
 		
 			<div id="form">
-				<input type="text" id="textoBusca" placeholder="Digite aqui sua palavra-chave...">
+				<input type="text" id="texto-busca" placeholder="Digite aqui sua palavra-chave...">
 
-				<select id="tipoBusca">
-		  		<option selected="selected" value="-1">Selecione</option>
+				<select id="tipo-busca">
 		  		<option value="0">Palavra-chave</option>
 		  		<option value="1">CNPJ</option>
 		  		<option value="2">Empresa vencedora</option>
-		  		<option value="3">Licitação</option>
-		  		<option value="4">Data</option>
+		  		<option value="3">Data de publicação</option>
 				</select>
 				
 				<a class="submit-button search-button" href="javascript:void(0);">Pesquisar</a>
 				<br/> 
-				Exemplo de palavra-chave: suprimentos informática, aquisição de vestuário em fevereiro de 2011, etc...
+				<span class="exemplo-pesquisa">
+					<strong>Exemplo:</strong> suprimentos informática, aquisição de vestuário em fevereiro de 2011, etc...
+				</span>
+				
+				<div id="load-box">
+					<img src="<?=DIR_SITE?>imgs/ajax-loader.gif">
+					<br/>
+					<span class="bigRed">Buscando...<span>
+				</div>
 			</div>
 	
     				
