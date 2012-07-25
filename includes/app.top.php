@@ -13,7 +13,8 @@
     <script src="js/jquery-1.7.2.min.js"></script>
     <script src="js/jquery.anchor.js" type="text/javascript"></script>
     <script src="js/jquery.fancybox-1.2.6.pack.js" type="text/javascript"></script>
- 		<script type="text/javascript" charset="utf-8" src="<?=DIR_SITE?>js/main.js"></script>
+		<script type="text/javascript" src="js/jquery.maskedinput-1.3.min.js" ></script>
+ 		<script type="text/javascript" src="js/main.js"></script>
 </head>
 
 <body>
