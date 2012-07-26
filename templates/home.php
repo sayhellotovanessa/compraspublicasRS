@@ -37,64 +37,8 @@
 	<section id="data-table"> 
 		<h2 class="work">Minha Consulta</h2>
 	
-			<table class="tabela">
-				<tr>
-					<th>Descrição</th>
-					<th>Portal</th>
-					<th>Licitação</th>
-					<th>Empresa Vencedora</th>
-					<th>CNPJ</th>
-					<th>Valor</th>
-					<th>Quantidade</th>
-					<th>Data</th>
-					<th></th>
-				</tr>
-				<tr>
-					<td>Materiais e suprimentos para informática.</td>
-					<td>CECOM</td>
-					<td>1</td>
-					<td>LEXBEMARK</td>
-					<td>03328413000198</td>
-					<td>R$ 6470</td>
-					<td>2</td>
-					<td>04/01/2011</td>
-					<td><a href="oi.html" rel="lightbox">Completo</a></td>
-				</tr>
-				<tr>
-					<td>Materiais e suprimentos para informática.</td>
-					<td>CECOM</td>
-					<td>1</td>
-					<td>LEXBEMARK</td>
-					<td>03328413000198</td>
-					<td>R$ 6470</td>
-					<td>2</td>
-					<td>04/01/2011</td>
-					<td><a href="oi.html#" rel="bump" rel="400-300">Completo</a></td>
-				</tr>
-				<tr>
-					<td>Materiais e suprimentos para informática.</td>
-					<td>CECOM</td>
-					<td>1</td>
-					<td>LEXBEMARK</td>
-					<td>03328413000198</td>
-					<td>R$ 6470</td>
-					<td>2</td>
-					<td>04/01/2011</td>
-					<td><a href="#">Completo</a></td>
-				</tr>
-				<tr>
-					<td>Materiais e suprimentos para informática.</td>
-					<td>CECOM</td>
-					<td>1</td>
-					<td>LEXBEMARK</td>
-					<td>03328413000198</td>
-					<td>R$ 6470</td>
-					<td>2</td>
-					<td>04/01/2011</td>
-					<td><a href="#">Completo</a></td>
-				</tr>
-			</table> 
-		
+		<h3></h3>
+	
 			<share>
 				<a style="margin-right:50px;" href="https://twitter.com/share" class="twitter-share-button" data-text="#wehateit I really hate it:" data-count="horizontal">Tweet</a>
 				<script type="text/javascript" src="//platform.twitter.com/widgets.js"></script>
