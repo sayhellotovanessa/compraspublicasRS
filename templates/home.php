@@ -36,6 +36,7 @@
 
 	<section id="data-table"> 
 		<h2 class="work">Minha Consulta</h2>
+		<p>Exemplo de consulta.</p>
 	
 			<table class="tabela">
 				<tr>
