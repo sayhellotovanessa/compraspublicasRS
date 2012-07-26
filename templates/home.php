@@ -106,6 +106,18 @@
 		<section id="about"> 
 			<h2 class="about">Sobre o projeto</h2>
 			<p>Consulte, compartilhe e comente os dados que você procurou.  </p>
-			<p>Consultas Públicas é um projeto de licença livre, desenvolvido por Vanessa Guedes e Murilo Prestes em julho de 2012, como projeto do primeiro concurso Decoders, da W3C, realizado durante o FISL 13. <br> Todo o projeto fio escrito em open source, e você pode ver e baixar o código na página do projeto no github.</p>	
+			<p>Consultas Públicas é um projeto de licença livre, desenvolvido por Vanessa Guedes (<a href="http://twitter.com/nessoila">@nessoila</a>) e Murilo Prestes (<a href="http://twitter.com/MacLovinBr">@MacLovinBr</a>) em julho de 2012, como projeto do primeiro concurso Decoders, da W3C, realizado durante o FISL 13. <br> Todo o projeto fio escrito em open source, e você pode ver e baixar o código na página do projeto no github.</p>	
     </section>
+
+		<section id="api">
+			<h2 class="api">API</h2>
+				<p>	
+					Todas as consultas de dados de compras homologadas poderá ser feita através de uma API REST livre, tanto para utilização em outros aplicativos quanto para colaboração com novas tabelas de dados de outros estados.
+					
+					<strong>Métodos:</strong>
+					<p>
+						<?=DIR_SITE?>api/consulta/palavraChave/<i>{termos para pesquisa} - <em>Pesquisa por palavra chave</em> 
+					</p>
+				</p>
+		</section>
 	</section>

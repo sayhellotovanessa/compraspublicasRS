@@ -1,14 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<!-- This is a demonstration of HTML5 goodness with healthy does of CSS3 mixed in -->
 <head>
     
     <title>Compras Públicas RS</title>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
-
-    
-    <link rel="stylesheet" href="style.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="screen" />
     
     <script src="js/jquery-1.7.2.min.js"></script>
     <script src="js/jquery.anchor.js" type="text/javascript"></script>
@@ -29,18 +25,18 @@
 }(document, 'script', 'facebook-jssdk'));</script>
 
 
-    <header> <!-- HTML5 header tag -->
+    <header>
     
     	<div id="headercontainer">
     
     		<h1><a class="introlink anchorLink" href="#intro">Compras Públicas - RS</a></h1>
     		
-    		<nav> <!-- HTML5 navigation tag -->
+    		<nav> 
     			<ul>
     				<li><a class="introlink anchorLink" href="#intro">Consulta</a></li>
     				<li><a class="portfoliolink anchorLink" href="#data-table">Informações</a></li>
     				<li><a class="aboutlink anchorLink" href="#about">Projeto</a></li>
-    				
+    				<li><a class="apilink anchorLink" href="#api">API</a></li>
     			</ul>				
     		</nav>
     	
