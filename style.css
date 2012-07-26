@@ -16,7 +16,7 @@ aside, nav, article, figure {
 body { 
 	font-family: Keffeesatz, Arial; 
 	color: #4b4b4b; 
-	background: url(../images/pattern-bg.png); 
+	background: url(images/pattern.gif); 
 	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2); 
 	overflow:hidden;
 }
@@ -84,9 +84,10 @@ h1 a:hover {
 }
 
 h2 { 
+	padding-left: 125px; 
 	font-size: 30px; 
 	color: #d82000; 
-	height: 100px; 
+	height: 105px; 
 }
 
 h2 span.sub { 
@@ -94,9 +95,22 @@ h2 span.sub {
 	color: #4b4b4b; 
 }
 
+h2.intro { 
+	background: url(images/intro.png) no-repeat -10px -10px; 
+}
+
+h2.work { 
+	background: url(images/portfolio.png) no-repeat -10px -10px; 
+}
+h2.about { 
+	background: url(images/about.png) no-repeat -10px -10px; 
+}
+h2.contact { 
+	background: url(images/contact.png) no-repeat -10px -10px; 
+}
 
 a { 
-	color: #7AC000; 
+	color: #ecda44; 
 	text-decoration: none; 
 }
 a:hover { 
@@ -158,9 +172,8 @@ nav ul li {
 }
 
 nav ul li a { 
-	font-size: 20px; 
+	font-size: 24px; 
 	border-bottom: none; 
-	color:#ecda44;
 }
 
 section { 
@@ -277,7 +290,7 @@ select {
 	padding: 10px; 
 	font-family: Keffeesatz, Arial; 
 	color: #4b4b4b; 
-	font-size: 18px; 
+	font-size: 24px; 
 	-webkit-border-radius: 5px; 
 	margin-bottom: 15px; 
 	margin-top: -10px;
@@ -308,7 +321,7 @@ input[type="text"], textarea {
 	padding: 10px; 
 	font-family: Keffeesatz, Arial; 
 	color: #4b4b4b; 
-	font-size: 18px; 
+	font-size: 24px; 
 	-webkit-border-radius: 5px; 
 	margin-bottom: 15px; 
 	margin-top: -10px; 
@@ -370,7 +383,7 @@ input[type="submit"]:hover {
 
 .submit-button {
 	padding:10px;
-	font-size:18px;
+	font-size:24px;
 	color:#fff;
 	background-color: #7ac000; 
 	
@@ -395,14 +408,6 @@ input[type="submit"]:hover {
 .bigRed {
 	font-size: 30px;
 	color: #D82000;
-}
-
-.code {
-	font-family:Courier, "Courier-New";
-	font-size:18px;
-}
-.small {
-	font-size:16px;
 }
 footer { 
 	float: left; 

@@ -112,11 +112,31 @@
 		<section id="api">
 			<h2 class="api">API</h2>
 				<p>	
-					Todas as consultas de dados de compras homologadas poderá ser feita através de uma API REST livre, tanto para utilização em outros aplicativos quanto para colaboração com novas tabelas de dados de outros estados.
+					Todas as consultas de dados de compras homologadas poderá ser feita através de uma API REST livre, tanto para utilização em outros aplicativos quanto para colaboração com novas tabelas de dados de outros estados no nosso <a href="https://github.com/nessoila/compraspublicasRS/tree/master/dados">Github</a>.
 					
-					<strong>Métodos:</strong>
 					<p>
-						<?=DIR_SITE?>api/consulta/palavraChave/<i>{termos para pesquisa} - <em>Pesquisa por palavra chave</em> 
+						<strong>Métodos:</strong>
+						<br/>
+						
+						<span class="code">
+							<?=DIR_SITE?>api/consulta/palavraChave/{termos para pesquisa}
+						</span>
+						<strong class="small">Pesquisa por palavra chave</strong>
+						<br/>
+						<span class="code">
+							<?=DIR_SITE?>api/consulta/cnpj/{cnpj sem ponto, barra e hífen}
+						</span>
+						<strong class="small">Pesquisa por CNPJ da empresa vencedora</strong>
+						<br/>
+						<span class="code">
+							<?=DIR_SITE?>api/consulta/empresaVencedora/{razão social}
+						</span>
+						<strong class="small">Pesquisa por razão social da empresa vencedora</strong>
+						<br/>
+						<span class="code">
+							<?=DIR_SITE?>api/consulta/data/{data invertida aaaammdd sem barras}
+						</span>
+						<strong class="small">Pesquisa por data de publicação</strong>
 					</p>
 				</p>
 		</section>
