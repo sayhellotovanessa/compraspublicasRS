@@ -1,7 +1,7 @@
 <section id="contentcontainer"> 
 	<section id="intro">
 		<h2 class="intro">
-			Consulte valores de compras realizadas pelo <strong>governo</strong> através de um simples formulário. <span class="sub"> É simples, né?</span>
+			Consulte valores de compras realizadas pelo <strong>governo</strong> através de um pequeno formulário. <span class="sub"> É simples, né?</span>
 		</h2>
 		<br/>
 		
@@ -36,6 +36,7 @@
 
 	<section id="data-table"> 
 		<h2 class="work">Minha Consulta</h2>
+		<p>Exemplo de consulta.</p>
 	
 		<h3></h3>
 	
