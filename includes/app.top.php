@@ -34,7 +34,7 @@
     		<nav> 
     			<ul>
     				<li><a class="introlink anchorLink" href="#intro">Consulta</a></li>
-    				<li><a class="portfoliolink anchorLink" href="#data-table">Informações</a></li>
+    				<li><a class="datatablelink anchorLink" href="#data-table">Informações</a></li>
     				<li><a class="aboutlink anchorLink" href="#about">Projeto</a></li>
     				<li><a class="apilink anchorLink" href="#api">API</a></li>
     			</ul>				

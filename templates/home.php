@@ -37,7 +37,7 @@
 	<section id="data-table"> 
 		<h2 class="work">Minha Consulta</h2>
 	
-			<table cellpadding="" cellspacing="" summary="" border="" bordercolor="" align="default" width="px" height="px">
+			<table class="tabela">
 				<tr>
 					<th>Descrição</th>
 					<th>Portal</th>

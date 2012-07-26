@@ -195,24 +195,35 @@ section {
 }
 
 table {
-	margin: 0;
-	border: 5px solid rgba(122, 192, 0, 0.15); 
+	border: solid thin #ccc; 
+	background-color:#FFF;
+	text-align:left;
+	text-shadow:none;
+	font-size:12px;
+	width:900px;
+	padding:0px;
+	margin:0px;
 }
 
 table:hover {
-	border: 5px solid ##7AC000;
+
 }
 
 th {
 	color: #7AC000;
+	border:solid thin #ccc;
+	padding:8px;
 }
 
 tr {
-
+	border:solid thin #ccc;
+	margin:0px;
 }
 
 td {
-	padding: 5px;
+	padding:8px;
+	border:solid thin #ccc;
+	margin:0px;
 }
 
 td:hover {
@@ -224,7 +235,6 @@ td a {
 }
 
 tr:focus {
-	border: 5px solid #d82000; 
 	background-color: rgba(255, 255, 255, 1);
 }
 

@@ -1,5 +1,5 @@
 $(document).ready(function(){
-	var metodo = 'palavrachave';
+	var metodo = 'palavraChave';
 	var busca = '';
 	
 	function CNPJtoInt(egg) {
@@ -51,7 +51,18 @@ $(document).ready(function(){
 						$('#erro-box').fadeIn('slow');
 					}
 					else {
-						console.log(resposta);
+						var linhas = '';
+						var tabela = '<table class="tabela"><tr><th>Descrição</th><th>Portal</th><th>Licitação</th><th>Empresa Vencedora</th><th>CNPJ</th><th>Valor</th><th>Quantidade</th><th>Data</th></tr>';
+						
+						for (var i=0; i < resposta.resposta.length; i++) {
+							linhas += '<tr><td>'+resposta.resposta[i].descricaoObjeto+'</td><td>'+resposta.resposta[i].nomePortal+'</td><td>'+resposta.resposta[i].tipoLicitacao+'</td><td>'+resposta.resposta[i].razaoSocialVencedor+'</td><td>'+resposta.resposta[i].cnpjVencedor+'</td><td>'+resposta.resposta[i].valorVencedor+'</td><td>'+resposta.resposta[i].quantidadeItensLote+'</td><td>14/05/2011</td></tr>';
+						};
+						
+						tabela = tabela + linhas +'</table>';
+						
+						$('#data-table').html(tabela);
+						$('.datatablelink').click();
+						$('body').css('overflow', 'auto');
 					}
 				}
 			}
