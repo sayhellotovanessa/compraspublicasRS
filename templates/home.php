@@ -27,7 +27,7 @@
 					<span class="bigRed">Buscando...<span>
 				</div>
 				<div id="erro-box" class="bigRed">
-					<span class="doh">D'Oh!</span>
+					<span class="doh">Ops!</span>
 				</div>
 			</div>
 	
