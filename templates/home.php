@@ -45,16 +45,16 @@
 				<script type="text/javascript" src="//platform.twitter.com/widgets.js"></script>
 				<div class="fb-send" data-href="http://example.com" data-font="lucida grande" data-colorscheme="dark"></div>
 				<br>
-			</share>		
-		</section>
+			</share>		 
+	</section>
     			
-		<section id="about"> 
+	<section id="about"> 
 			<h2 class="about">Sobre o projeto</h2>
 			<p>Consulte, compartilhe e comente os dados que você procurou.  </p>
 			<p>Consultas Públicas é um projeto de licença livre, desenvolvido por Vanessa Guedes (<a href="http://twitter.com/nessoila">@nessoila</a>) e Murilo Prestes (<a href="http://twitter.com/MacLovinBr">@MacLovinBr</a>) em julho de 2012, como projeto do primeiro concurso Decoders, da W3C, realizado durante o FISL 13. <br> Todo o projeto fio escrito em open source, e você pode ver e baixar o código na página do projeto no github.</p>	
-    </section>
+        </section>
 
-		<section id="api">
+       <section id="api">
 			<h2 class="api">API</h2>
 				<p>	
 					Todas as consultas de dados de compras homologadas poderá ser feita através de uma API REST livre, tanto para utilização em outros aplicativos quanto para colaboração com novas tabelas de dados de outros estados no nosso <a href="https://github.com/nessoila/compraspublicasRS/tree/master/dados">Github</a>.
@@ -84,5 +84,5 @@
 						<strong class="small">Pesquisa por data de publicação</strong>
 					</p>
 				</p>
-		</section>
+	</section>
 	</section>
